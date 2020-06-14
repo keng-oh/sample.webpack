@@ -36,6 +36,12 @@ module.exports = {
         test: /\.html$/,
         loader: 'html-loader',
       },
+      {
+        enforce: 'pre',
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loader: 'eslint-loader',
+      },
     ],
   },
   devServer: {
@@ -62,4 +68,5 @@ module.exports = {
       new OptimizeCssAssetsPlugin({}),
     ],
   },
+  devtool: 'eval-source-map',
 };
