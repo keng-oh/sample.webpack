@@ -18,7 +18,13 @@
   },
   "homepage": "https://github.com/keng-oh/webpack-sample#readme",
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
     "live-server": "^1.2.1",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
@@ -30,6 +36,8 @@
   "dependencies": {
     "file-loader": "^6.0.0",
     "lodash": "^4.17.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "style-loader": "^1.2.1"
   }
 }
