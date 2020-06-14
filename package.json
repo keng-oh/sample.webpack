@@ -18,12 +18,14 @@
   },
   "homepage": "https://github.com/keng-oh/webpack-sample#readme",
   "devDependencies": {
+    "css-loader": "^3.6.0",
     "live-server": "^1.2.1",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "style-loader": "^1.2.1"
   }
 }
